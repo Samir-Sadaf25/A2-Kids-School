@@ -1,0 +1,86 @@
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared styles */
+:root{
+    --fontcolor1: rgba(254, 163, 1, 1);
+    --fontcolor2: rgba(1, 172, 253, 1);
+    --fontcolor3: rgba(5, 212, 223, 1);
+    --fontcolor4: rgba(93, 88, 239, 1);
+    --btn-color:rgba(17, 17, 17, 1);
+}
+.display-flex{
+    display: flex;
+}
+.visibility-hidden{
+    visibility: hidden;
+}
+.bodybg{
+    background-image: url('/assets/bg.png');
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+    
+}
+.school-logo{
+    display: flex;
+    align-items: center;
+}
+.school-logo>img{
+    width: 64px;
+    height: 64px;
+}
+.navbar{
+   margin-top: 36px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+nav>a{
+    padding-right: 32px;
+    text-decoration: none;
+}
+.contact-btn{
+    background-color: var(--fontcolor1);
+    color: white;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 23px;
+    font-size: 1.25rem;
+}
+header{
+    justify-content: center;
+}
+@media screen and (max-width:576px) {
+    
+    .navbar{
+        display: none;
+    }
+    .header-title{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        border-bottom: 1px solid orange;
+    }
+    .contact-btn{
+        visibility: hidden;
+    }
+    .header-menu{
+        visibility: visible;
+        margin-left: -500px;
+        margin-top: 25px;
+        margin-right: -10px;
+    }
+    .header-menu img{
+        width: 50%;
+    }
+
+}
