@@ -71,29 +71,34 @@ header {
 
 /* banner section */
 .banner-section {
-    margin: auto 140px;
-    /* justify-content: space-between; */
-
+    width: 1158.61px;
+    height: 575px;
+    /* border: 2px solid salmon; */
+    margin: auto 300px;
 }
 
 .banner-img img {
     width: 100%;
 }
-
-.banner-img {
-    margin-left: 150px;
-    /* margin-right: -50px; */
+.banner-img{
+    width: 25vw;
+    height: 100%;
 }
-
 .banner-content {
-    padding-top: 80px;
-    margin-left: 80px;
+   /* width: 640px;
+   height: 331px; */
+   width: 40vw;
+   height: 55%;
+   /* border: 2px solid blueviolet; */
+   margin: 122px 0;
 }
 
 .banner-title {
-    font-size: 3.5rem;
+    font-size: 2.5vw;
     font-weight: 700;
     color: black;
+    /* margin-bottom: 0px; */
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -105,6 +110,7 @@ header {
 
 .banner-btn {
     font-size: 1.25rem;
+    /* font-size: 1vw; */
     font-weight: 700;
     color: white;
     background-color: black;
@@ -144,37 +150,43 @@ header {
 
     .banner-section {
         flex-direction: column-reverse;
-        margin-left: 0px;
-        /* margin-left: 20px; */
-        /* justify-content: center; */
+        width: 357px;
+        height: 725px;
+        /* border: 2px solid seagreen; */
+        margin: auto 0px;
+        margin-left: 16px;
+        margin-right: 17px;
     }
 
     .banner-content {
+       width: 85vw;
+       height: 35%;
+       /* border: 2px solid sandybrown; */
+       margin-top: 20px;
+       margin-bottom: 20px;
        text-align: center;
-       margin-right: 0px;
-       text-wrap: wrap;
     }
 
     .banner-title {
-        font-size: 2rem;
-        margin-top: 0px;
+        font-size: 10vw;
     }
 
     .banner-subtitle {
-        font-size: 0.80rem;
+        font-size: 4vw;
     }
 
     .banner-img img {
-        width: 290.24px;
-        height: 380px;
+        width: 85vw;
+        height: 90%;
     }
     
     .banner-img {
-        /* margin: 28px 26px 20px 26px; */
-        margin-left: 40px;
-        margin-top: 25px;
+        width: 85vw;
+        height: 55%;
+        /* border: 2px solid red; */
     }
     .banner-btn{
-        padding: 6px 24px;
+        font-size: 3.5vw;
+        /* padding: 6px 24px; */
     }
 }
