@@ -1,51 +1,60 @@
-.quicksand-font{
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* shared styles */
-:root{
+:root {
     --fontcolor1: rgba(254, 163, 1, 1);
     --fontcolor2: rgba(1, 172, 253, 1);
     --fontcolor3: rgba(5, 212, 223, 1);
     --fontcolor4: rgba(93, 88, 239, 1);
-    --btn-color:rgba(17, 17, 17, 1);
+    --btn-color: rgba(17, 17, 17, 1);
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 }
-.visibility-hidden{
+
+.visibility-hidden {
     visibility: hidden;
 }
-.bodybg{
+
+.bodybg {
     background-image: url('/assets/bg.png');
     background-color: rgba(255, 255, 255, 1);
 }
 
-.header-title{
+.header-title {
     font-size: 2rem;
     font-weight: 700;
     color: rgba(17, 17, 17, 1);
-    
+
 }
-.school-logo{
+
+.school-logo {
     display: flex;
     align-items: center;
 }
-.school-logo>img{
+
+.school-logo>img {
     width: 64px;
     height: 64px;
 }
-.navbar{
-   margin-top: 36px;
-   margin-left: 100px;
-   margin-right: 100px;
+
+.navbar {
+    margin-top: 36px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-nav>a{
+
+nav>a {
     padding-right: 32px;
     text-decoration: none;
 }
-.contact-btn{
+
+.contact-btn {
     background-color: var(--fontcolor1);
     color: white;
     height: 50px;
@@ -55,32 +64,117 @@ nav>a{
     margin-top: 23px;
     font-size: 1.25rem;
 }
-header{
+
+header {
     justify-content: center;
 }
+
+/* banner section */
+.banner-section {
+    margin: auto 140px;
+    /* justify-content: space-between; */
+
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-img {
+    margin-left: 150px;
+    /* margin-right: -50px; */
+}
+
+.banner-content {
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.banner-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+}
+
+.banner-btn {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 10px 47px;
+    border-radius: 12px;
+}
+
 @media screen and (max-width:576px) {
-    
-    .navbar{
+
+    .navbar {
         display: none;
     }
-    .header-title{
+
+    .header-title {
         display: none;
     }
-    header{
+
+    header {
         justify-content: space-between;
         border-bottom: 1px solid orange;
     }
-    .contact-btn{
+
+    .contact-btn {
         visibility: hidden;
     }
-    .header-menu{
+
+    .header-menu {
         visibility: visible;
         margin-left: -500px;
         margin-top: 25px;
         margin-right: -10px;
     }
-    .header-menu img{
+
+    .header-menu img {
         width: 50%;
     }
 
+    .banner-section {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        /* margin-left: 20px; */
+        /* justify-content: center; */
+    }
+
+    .banner-content {
+       text-align: center;
+       margin-right: 0px;
+       text-wrap: wrap;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .banner-subtitle {
+        font-size: 0.80rem;
+    }
+
+    .banner-img img {
+        width: 290.24px;
+        height: 380px;
+    }
+    
+    .banner-img {
+        /* margin: 28px 26px 20px 26px; */
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    .banner-btn{
+        padding: 6px 24px;
+    }
 }
