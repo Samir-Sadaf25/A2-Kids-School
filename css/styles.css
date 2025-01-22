@@ -287,16 +287,16 @@ header {
     .header-title {
         display: none;
     }
-
+   
     header {
         justify-content: space-between;
         border-bottom: 1px solid orange;
     }
-
+    
     .contact-btn {
-        visibility: hidden;
+        display: none;
     }
-
+    
     .header-menu {
         visibility: visible;
         margin-left: -500px;
@@ -386,4 +386,71 @@ header {
     .curriculum-footer-icon{
         visibility: hidden;
     }
+    #box-1{
+        display: none;
+    }
+    .stories-section{
+        margin-left: -10px;
+        margin-right: 0px;
+        width: 480px;
+        height: 868px;
+        justify-items: center;
+    }
+    .stories-card-container{
+        /* margin: auto 0px; */
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 458px;
+        height: 561px;
+        /* gap: 0px; */
+        justify-content: center;
+        /* justify-content: space-between; */
+        background: none;
+        column-gap: 11px;
+        /* margin-right: 200px; */
+        
+    }
+    #box-2{
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+    }
+    #box-3{
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+    }
+    #box-4{
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+    }
+    #box-5{
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+    }
+    .stories-card-subtitle{
+         /* width: fit-content; */
+         font-size: 0.7rem;
+    }
+    .stories-btn{
+        /* margin-top: 300px; */
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+    .stories-card-date{
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: #FFFFFF;
+        /* padding: 10px auto; */
+        /* padding-top: 10px; */
+        width: 110px;
+        height: 25px;
+        border-radius: 10px;
+        transform: translate(7px,-25px);
+        justify-self: center;   
+    }
+   
 }
