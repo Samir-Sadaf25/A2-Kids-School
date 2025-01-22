@@ -126,6 +126,8 @@ header {
     margin-left: 190px;
 }
 .curriculum-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     width: 75.2vw;
     height: 54%;
     /* border: 2px solid steelblue; */
@@ -133,8 +135,9 @@ header {
     
 }
 .curriculum-card{
-    width: 35vw;
-    height: 99%;
+    
+    /* width: 35vw;
+    height: 99%; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 18px;
     text-align: center;
@@ -142,24 +145,24 @@ header {
 }
 
 .curriculum-heading{
-    font-size: 3vw;
+    font-size: 2.5rem;
     font-weight: 700;
     color: rgba(0, 0, 0, 1);
     text-align: center;
 }
 .curriculum-title{
     /* font-size: 1.5rem; */
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 .curriculum-subtitle{
-    /* font-size: 1.5rem; */
-    font-size: 1vw;
+    font-size: 1rem;
+    /* font-size: 1vw; */
     font-weight: 500;
     color: #808080;
 }
 .curriculum-readmore{
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 700;
 }
 .curriculum-footer-icon{
@@ -246,5 +249,41 @@ header {
         font-size: 3.5vw;
         /* padding: 6px 24px; */
     }
-    
+    .curriculum-section{
+        margin-left: 0px;
+        text-align: center;
+        justify-content: center;
+        /* width: fit-content; */
+        width: 390px;
+        height: 1913px;
+        /* border: 2px solid tomato; */
+        margin-top: 200px;
+    }
+    .curriculum-heading{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: max-content;
+        /* margin: 40px 64.5px 20px 64.5px; */
+    }
+    .curriculum-card-container{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        /* margin-top: 93px; */
+        width: 357px;
+        height: 991px;
+        /* border: 2px solid black; */
+        margin: 93px 16.5px 20px 16.5px;
+    }
+    .curriculum-card{
+        width: 357px;
+        height: 321px;
+        /* text-align: center; */
+    }
+    .curriculum-card img{
+        width: 88px;
+        height: 75px;
+    }
+    .curriculum-footer-icon{
+        visibility: hidden;
+    }
 }
