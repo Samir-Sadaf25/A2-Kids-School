@@ -11,6 +11,9 @@
     --fontcolor3: rgba(5, 212, 223, 1);
     --fontcolor4: rgba(93, 88, 239, 1);
     --btn-color: rgba(17, 17, 17, 1);
+    --card-bg-1:linear-gradient(#DEF5FF,#FFFFFF);
+    --card-bg-2:linear-gradient(#FFF4DC,#FFFFFF);
+    --card-bg-3:linear-gradient(#EEE1FF,#FFFFFF);
 }
 
 .display-flex {
@@ -117,7 +120,61 @@ header {
     padding: 10px 47px;
     border-radius: 12px;
 }
+.curriculum-section{
+    width: 1440px;
+    height: 879px;
+    margin-left: 190px;
+}
+.curriculum-card-container{
+    width: 75.2vw;
+    height: 54%;
+    /* border: 2px solid steelblue; */
+    gap: 26px;
+    
+}
+.curriculum-card{
+    width: 35vw;
+    height: 99%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 18px;
+    text-align: center;
+    padding: 20px 10px;
+}
 
+.curriculum-heading{
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+.curriculum-title{
+    /* font-size: 1.5rem; */
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.curriculum-subtitle{
+    /* font-size: 1.5rem; */
+    font-size: 1vw;
+    font-weight: 500;
+    color: #808080;
+}
+.curriculum-readmore{
+    font-size: 1vw;
+    font-weight: 700;
+}
+.curriculum-footer-icon{
+    text-align: center;
+    margin: 80px auto 60px auto;
+}
+.arrow-icon{
+    background-color: orange;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding: 18px 22px;
+    width: 20px;
+    height: 23px;
+    
+}
 @media screen and (max-width:576px) {
 
     .navbar {
@@ -189,4 +246,5 @@ header {
         font-size: 3.5vw;
         /* padding: 6px 24px; */
     }
+    
 }
